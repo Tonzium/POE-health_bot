@@ -51,18 +51,27 @@ while True:
 
     # TAKE POTION
     if current_hp <= maximum_hp * 0.5 and current_hp > maximum_hp * 0.25:
+        # assuming flask is at hotkey 1
         keyboard.press_and_release("1")
         print("potion taken at", current_hp)
 
+    # If your character uses energy shields instead of health.
+    #if current_energyshield <= maximum_energyshield * 0.5:
+    #    # assuming flask is at hotkey 1, this can be any flask.
+    #    keyboard.press_and_release("1")
+    #    print("potion taken at", current_energyshield)
+
+    # ADD more features depending on your build
+    
     # LOGOUT
-    if current_hp <= maximum_hp * 0.35:
-        keyboard.press_and_release("ESC")
+    #if current_hp <= maximum_hp * 0.35:
+    #    keyboard.press_and_release("ESC")
 
         # Move the mouse to the middle of the POE window
-        pyautogui.moveTo(middle_x, middle_y - 20)  # Can adjust the duration if needed
-        pyautogui.leftClick()
+    #    pyautogui.moveTo(middle_x, middle_y - 20)  # Can adjust the duration if needed
+    #    pyautogui.leftClick()
 
-        print("Saved ur ass at", current_hp, "!!!")
+    #    print("Saved ur ass at", current_hp, "!!!")
 
     # EXIT LOOP
     if keyboard.is_pressed("l"):
