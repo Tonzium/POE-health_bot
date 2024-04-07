@@ -6,7 +6,7 @@ it automatically administers a health potion, ensuring the player stays alive.
 ## Disclaimer
 The use of this script involves reading the game's memory, which may be against the Terms of Service of Path of Exile.
 The development and distribution of this script are meant solely for educational purposes. The author, Tonzium,
-assumes no responsibility for any consequences that arise from using this script, including, but not limited to, bans or suspensions from Path of Exile.
+takes no responsibility for any consequences that arise from using this script, including, but not limited to, bans or suspensions from Path of Exile.
 By using this script, you acknowledge and accept all associated risks.
 
 ## Features
