@@ -1,6 +1,6 @@
 # Path of Exile, Health Bot
 This project consists of a sophisticated script designed to enhance the gaming experience in Path of Exile by directly reading the game's memory to track the player's health status.
-Utilizing reverse engineering techniques, this script monitors health points, mana, and energy shield levels in real-time. When it detects that the player's health is critically low,
+Utilizing reverse engineering techniques, this script monitors health points, mana, and energy shield levels in real-time. When it detects that the player's health is critically low in health,
 it automatically administers a health potion, ensuring the player stays alive.
 
 ## Disclaimer
@@ -13,3 +13,4 @@ By using this script, you acknowledge and accept all associated risks.
 - **Real-time Health Monitoring:** Continuously monitors the player's current health points against their maximum health points.
 - **Mana and Energy Shield Tracking:** Keeps track of current and maximum mana, as well as current and maximum energy shield levels, crucial for survival strategies in [Game Name].
 - **Automatic Health Potion Usage:** Automatically uses a health potion when the player's health drops to a critical level, ensuring the player remains alive.
+- **Optional LOGOUT feature:** Automatically exit's the game if health is too low. Beneficial for HARDCORE characters.
